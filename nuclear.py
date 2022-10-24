@@ -4,7 +4,7 @@ from collections import Counter
 f=open("result.json", "r", encoding="utf-8")
 
 
-messages=messages
+messages=json.loads(f.read())
 
 
 dates=[]
